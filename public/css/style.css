@@ -1,0 +1,30 @@
+/*default*/
+.screen-login {
+    height: 100%;
+}
+.screen-login body {
+    height: 100%;
+}
+.mt20 {
+  margin-top: 20px; 
+}
+/*default*/
+.layout-welcome {
+    background-image: url('../img/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.input-field input:-webkit-autofill,
+.input-field input:-webkit-autofill:hover,
+.input-field input:-webkit-autofill:focus,
+.input-field input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s !important;
+    -webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+}
+/*page login*/
+#formInit .error {
+    margin-left: 44px;
+    margin-top: -6px; 
+    color: red;
+}
+/*page login*/
